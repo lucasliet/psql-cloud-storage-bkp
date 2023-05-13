@@ -19,15 +19,15 @@ após execução do script a seguinte estrutura de pastas será criada no bucket
 ```
 <BACKUP_BUCKET>
     └── <DATABASE_NAME>-dump
-            ├── <DATABASE_NAME>-schema.gz
+            ├── <DATABASE_NAME>-schema.sql.gz
             └── tables
                     ├── <TABLE_NAME_1>
-                    │       ├── <TABLE_NAME_1>-<MONTH-1>.gz
-                    │       ├── <TABLE_NAME_1>-<MONTH-2>.gz
+                    │       ├── <TABLE_NAME_1>-<MONTH-1>.csv.gz
+                    │       ├── <TABLE_NAME_1>-<MONTH-2>.csv.gz
                     │       ...
                     ├── <TABLE_NAME_2>
-                    │       ├── <TABLE_NAME_2>-<MONTH-1>.gz
-                    │       ├── <TABLE_NAME_2>-<MONTH-2>.gz
+                    │       ├── <TABLE_NAME_2>-<MONTH-1>.csv.gz
+                    │       ├── <TABLE_NAME_2>-<MONTH-2>.csv.gz
                     │       ...
                     ...
 ```
